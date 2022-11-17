@@ -21,6 +21,7 @@ body {
   font-size: 13px;
   line-height: 18px;
   margin: 33px;
+  display: block;
 }
 
 .text {
@@ -32,3 +33,7 @@ body {
   height: 40px;
 }
 
+.form {
+  display: block;
+  margin-top: 0em;
+}
