@@ -23,17 +23,12 @@ body {
   margin: 33px;
 }
 
-p,  ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
+.text {
+  display: block;
   margin: 33px;
 }
 
-label {
-  display: block;
+.text2 {
+  height: 40px;
 }
 
-.div field, .div actions {
-  margin-bottom: 10px;
-}
