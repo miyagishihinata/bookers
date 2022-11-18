@@ -4,10 +4,10 @@ class BooksController < ApplicationController
   end
 
   def create
-    flash[:notice] = "successfully"
     book = Book.new(book_params)
     book.save
-    redirect_to '/books'
+    flash[:notice] = "successfully"
+    redirect_to book_path(book.id)
   end
 
 
