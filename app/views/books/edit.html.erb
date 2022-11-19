@@ -12,5 +12,7 @@
   <% end %>
  </div>
 
- <p><a href="/books">Back</a></p> <p><a href="/show">Show</a></p>
+ <p><a href="/books">Back</a></p>
+ <%= link_to "Show", book_path(@book.id) %>
+
 
